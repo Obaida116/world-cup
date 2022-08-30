@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    color: white;
+    background-color: rgb(23, 24, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    
+}
+.half-width{
+    width: 50%;
+}
+.banner-info{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.banner-info a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.banner-image{
+    padding-left: 50px;
+    padding-top: 50px;
+}
