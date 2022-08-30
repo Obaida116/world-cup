@@ -17,6 +17,12 @@ header, main{
     width: 80vw;
     margin-top: 30px;
 }
+.link-button{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
 /* -----------------------
 Banner Styles
 ------------------------ */
@@ -34,14 +40,30 @@ Banner Styles
     padding-top: 50px;
 }
 .banner-info a{
-    text-decoration: none;
     color: white;
     background-color: red;
-    border-radius: 3px;
-    padding: 5px 10px;
-    margin-top: 10px;
 }
 .banner-image{
     padding-left: 50px;
     padding-top: 50px;
+}
+
+/* -------------------
+    Blog Area 
+---------------------*/
+.blog-area{
+    display: flex;
+}
+.blog-link{
+    color: white;
+    background-color: red;
+}
+.upcoming-link,.group-link{
+    color: black;
+    background-color: white;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(23, 24, 23);
 }
